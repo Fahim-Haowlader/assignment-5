@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body class="bg-white">
+    <header class="text-black font-semibold text-xl text body-font bg-[rgb(249,247,243)] pt-6 pb-10">
+
+        <div class="container gap-3 flex justify-between items-center ">
+            <div class=" ml-3 inline-flex md:ml-32 ">
+                <button
+                    class=" inline-flex items-cente text-xl font-bold border-0 bg-[rgb(180,244,97)] rounded-xl  px-8 py-4 ">Blog
+                </button>
+            </div>
+
+            <div class="logo flex items-center gap-4">
+                <img src="./assets/logo.png" alt="">
+                <h1 class="web-name hidden md:block">Donate Bangladesh</h1>
+            </div>
+            <div class="balance-container mr-3 flex items-center gap-2 md:gap-4">
+                <img src="./assets/coin.png" alt="">
+                <h1 class="balance">10000 BDT</h1>
+            </div>
+
+        </div>
+       
+    </header>
+    <div class="derictio text-black bg-white mx-auto pt-10 font-semibold text-xl pb-10 border-b border-gray-200 text-center">
+        <button class="donatio-button px-8 py-3  rounded-lg bg-[rgb(180,244,97)] hover:bg-[rgb(186,234,123)] mr-6">Donation</button>
+        <button class="history-button px-8 py-3  bg-gray-100 hover:bg-gray-200 rounded-lg ">History</button>
+    </div>
+    <!-- Open the modal using ID.showModal() method -->
+<button class="btn bg-white" >open modal</button>
+
+    <main class="bg-white text-black"> 
+       
+    
+    <div class="collapse collapse-arrow bg-white">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">What is document object (DOM)?</div>
+        <div class="collapse-content">
+          <p>
+            The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an HTML or XML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree; with them one can change the structure, style or content of a document.[2] Nodes can have event handlers (also known as event listeners) attached to them. Once an event is triggered, the event handlers get executed.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-white">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">What is Object-Oriented Programming (OOP)?</div>
+        <div class="collapse-content">
+          <p>Object-oriented programming (OOP) is a programming paradigm based on the concept of objects,[1] which can contain data and code: data in the form of fields (often known as attributes or properties), and code in the form of procedures (often known as methods). In OOP, computer programs are designed by making them out of objects that interact with one another.</p>
+        </div>
+      </div>
+      <div class="collapse collapse-arrow bg-white">
+        <input type="radio" name="my-accordion-2" />
+        <div class="collapse-title text-xl font-medium">what is data abstraction?</div>
+        <div class="collapse-content">
+          <p>Data abstraction is the reduction of a particular body of data to a simplified representation of the whole. Abstraction, in general, is the process of removing characteristics from something to reduce it to a set of essential elements.</p>
+        </div>
+      </div>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+</html>
