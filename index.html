@@ -14,9 +14,14 @@
     <header class="text-black font-semibold text-xl text body-font bg-[rgb(249,247,243)] pt-6 pb-10">
 
         <div class="container gap-3 flex justify-between items-center ">
-            <div class=" ml-3 inline-flex md:ml-32 ">
+            <div class=" ml-3 md:ml-32 ">
                 <button
-                    class=" inline-flex items-cente text-xl font-bold border-0 bg-[rgb(180,244,97)] rounded-xl  px-10 py-4 ">Blog
+                    class="  items-cente text-xl font-bold border-0 bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] rounded-xl px-8 md:px-10 py-4 " id="blog-button">Blog
+                </button>
+            </div>
+            <div class=" hidden ml-3 md:ml-32 ">
+                <button
+                    class="  inline-flex items-cente text-xl font-bold border-0 bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] rounded-xl px-8 md:px-10 py-4 " id="home-button">home
                 </button>
             </div>
 
@@ -26,17 +31,17 @@
             </div>
             <div class="balance-container mr-3 flex items-center gap-2 md:gap-4">
                 <img src="./assets/coin.png" alt="">
-                <h1 class="balance">10000 BDT</h1>
+                <h1 class="balance">100000 BDT</h1>
             </div>
 
         </div>
     </header>
    <main>
     <div class="derictio  mx-auto mt-20 font-semibold text-xl pb-7 border-b border-gray-200 text-center">
-        <button class="donatio-button px-8 py-3  rounded-lg bg-[rgb(180,244,97)] hover:bg-[rgb(186,234,123)] mr-6">Donation</button>
+        <button class="donatio-button px-8 py-3  rounded-lg bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] mr-6">Donation</button>
         <button class="history-button px-8 py-3  bg-gray-100 hover:bg-gray-200 rounded-lg ">History</button>
     </div>
-<div class="campains">
+<div id="campains" class="">
     <div class="donation-campain1 mt-10 w-[410px] mx-2 md:w-[1140px] md:mx-auto border border-gray-200 rounded-2xl p-8 flex flex-col md:flex-row gap-8 shadow-xl">
         <div class="campaiin1-img md:w-[530px]"><img src="./assets/noakhali.png" alt="" class=" w-[360px]  md:w-[530px] md:h-[450px] object-cover rounded-lg"></div>
         <div class="campain1-information w-[360px] md:w-[520px]">
@@ -146,8 +151,8 @@
     </div> 
 
 </div>
-<div class=" hidden donation-history">
-
+<div id="donation-history" class="  " >
+<h1>welcome to history </h1>
 </div>
 
    </main>

@@ -6,17 +6,23 @@
     <title>Document</title>
 
 <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./style.css">
 
 </head>
-<body class="bg-white">
+<body class="bg-white lexend"> 
     <header class="text-black font-semibold text-xl text body-font bg-[rgb(249,247,243)] pt-6 pb-10">
 
         <div class="container gap-3 flex justify-between items-center ">
-            <div class=" ml-3 inline-flex md:ml-32 ">
+            <div class=" hidden ml-3  md:ml-32 ">
                 <button
-                    class=" inline-flex items-cente text-xl font-bold border-0 bg-[rgb(180,244,97)] rounded-xl  px-8 py-4 ">Blog
+                    class="inline-flex items-cente text-xl font-bold border-0 bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] rounded-xl  px-8 md:px-10 py-4 " id="blog-button">Blog
                 </button>
             </div>
+            <div class=" ml-3 inline-flex md:ml-32 ">
+              <button
+                  class="inline-flex items-cente text-xl font-bold border-0 bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] rounded-xl px-8 md:px-10 py-4 " id="home-button">Home
+              </button>
+          </div>
 
             <div class="logo flex items-center gap-4">
                 <img src="./assets/logo.png" alt="">
@@ -24,18 +30,14 @@
             </div>
             <div class="balance-container mr-3 flex items-center gap-2 md:gap-4">
                 <img src="./assets/coin.png" alt="">
-                <h1 class="balance">10000 BDT</h1>
+                <h1 class="balance">100000 BDT</h1>
             </div>
 
         </div>
        
     </header>
-    <div class="derictio text-black bg-white mx-auto pt-10 font-semibold text-xl pb-10 border-b border-gray-200 text-center">
-        <button class="donatio-button px-8 py-3  rounded-lg bg-[rgb(180,244,97)] hover:bg-[rgb(186,234,123)] mr-6">Donation</button>
-        <button class="history-button px-8 py-3  bg-gray-100 hover:bg-gray-200 rounded-lg ">History</button>
-    </div>
-    <!-- Open the modal using ID.showModal() method -->
-<button class="btn bg-white" >open modal</button>
+    <h1 class="text-4xl md:text-7xl py-6 px-4 text-black font-bold"> Important FAQ ? </h1>
+ 
 
     <main class="bg-white text-black"> 
        
@@ -46,6 +48,22 @@
         <div class="collapse-content">
           <p>
             The Document Object Model (DOM) is a cross-platform and language-independent interface that treats an HTML or XML document as a tree structure wherein each node is an object representing a part of the document. The DOM represents a document with a logical tree. Each branch of the tree ends in a node, and each node contains objects. DOM methods allow programmatic access to the tree; with them one can change the structure, style or content of a document.[2] Nodes can have event handlers (also known as event listeners) attached to them. Once an event is triggered, the event handlers get executed.</p>
+        </div>
+      </div>
+    <div class="collapse collapse-arrow bg-white">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">what is fetch ?</div>
+        <div class="collapse-content">
+          <p>
+            Fetch means to go to another place to get something or someone and return with the thing or the person. We use it for people and things that are not here but that we need or are due to be here. We can usually use get instead of fetch: … Bring, take and fetch: typical errors.</p>
+        </div>
+      </div>
+    <div class="collapse collapse-arrow bg-white">
+        <input type="radio" name="my-accordion-2" checked="checked" />
+        <div class="collapse-title text-xl font-medium">what is API ?</div>
+        <div class="collapse-content">
+          <p>
+            An application programming interface (abbreviated API) is a way for two or more computer programs or components to communicate with each other. It is a type of software interface, offering a service to other pieces of software.[1] A document or standard that describes how to build or use such a connection or interface is called an API specification. A computer system that meets this standard is said to implement or expose an API. The term API may refer either to the specification or to the implementation. Whereas a system's user interface dictates how its end-users interact with the system in question, its API dictates how to write code that takes advantage of that system's capabilities.</p>
         </div>
       </div>
       <div class="collapse collapse-arrow bg-white">
@@ -64,6 +82,12 @@
       </div>
     </main>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script > let homeButton = document.getElementById('home-button')
+
+      homeButton.addEventListener("click",()=>{
+          window.location.href = "./index.html"
+      })</script>
+    
 
 </body>
 </html>
