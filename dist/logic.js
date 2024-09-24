@@ -45,7 +45,7 @@ function donationCheck(inputid, submitid, confirmationid,campainid,campaintitle,
             alert('you do not have enough balance')
         } else {       
             let confirmation = document.getElementById(confirmationid);
-            // console.log(confirmation)
+            
             document.getElementById(modalid).classList.remove("hidden"); 
             
             confirmation.addEventListener("click", function() {
