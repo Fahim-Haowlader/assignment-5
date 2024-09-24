@@ -4,6 +4,18 @@
   font-family: "Lexend", sans-serif;
   font-style: normal;
 }
+.present-button{
+  background-color: rgb(144,244,97)
+}
+.present-button:hover{
+  background-color: rgb(147,237,108)
+}
+.previous-button{
+  background-color: rgb(232, 232, 232)
+}
+.previous-button:hover{
+  background-color: rgb(218, 218, 218)
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

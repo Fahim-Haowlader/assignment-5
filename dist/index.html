@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /> -->
+
+  <link rel="stylesheet" crossorigin href="/assets/index-vSDi7N__.css">
+</head>
+
+<body class="lexend bg-white text-black">
+  <header class="text-black sticky top-0 font-semibold text-xl text body-font bg-[rgb(249,247,243)] ">
+<nav class="py-5">
+    <div class="container gap-3 flex justify-between items-center ">
+      <div class=" ml-3 md:ml-32 ">
+        <button
+          class="  items-cente text-xl font-bold border-0 bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] rounded-xl px-8 md:px-10 py-4 "
+          id="blog-button">Blog
+        </button>
+      </div>
+      <div class=" hidden ml-3 md:ml-32 ">
+        <button
+          class="  inline-flex items-cente text-xl font-bold border-0 bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] rounded-xl px-8 md:px-10 py-4 "
+          id="home-button">home
+        </button>
+      </div>
+
+      <div class="logo flex items-center gap-4">
+        <img src="data:image/png;base64,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" alt="">
+        <h1 class="web-name hidden md:block">Donate Bangladesh</h1>
+      </div>
+      <div class="balance-container mr-3 flex items-center gap-2 md:gap-4">
+        <img src="data:image/png;base64,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" alt="">
+        <h1 class="balance"> <span id="balance">100000 </span> BDT</h1>
+      </div>
+
+    </div>
+  </nav>
+    <div
+      class="direction-button bg-white  mx-auto pt-6 md:pt-8 font-semibold text-xl pb-4 md:pb-6 border-b border-gray-200 text-center">
+      <button id="donation-button" class="px-8 py-3  rounded-lg present-button mr-6">Donation</button>
+      <button id="histroy-button" class=" px-8 py-3 previous-button rounded-lg ">History</button>
+    </div>
+  </header>
+  <main>   
+
+    <div id="campains" class="">
+      <div class="donation-campain1 mt-10 w-[410px] mx-2 md:w-[1140px] md:mx-auto border border-gray-200 rounded-2xl p-8 flex flex-col md:flex-row gap-8 shadow-xl">
+        <div class="campaiin1-img md:w-[530px]"><img src="/assets/noakhali-Dl9CwpTY.png" alt=""
+            class=" w-[360px]  md:w-[530px] md:h-[450px] object-cover rounded-lg"></div>
+        <div class="campain1-information w-[360px] md:w-[520px]">
+          <div class="campain1-raise-money flex py-3 px-4 gap-2 bg-[rgba(17,17,17,0.05)] rounded-md">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAYAAAC5UQwxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAY3SURBVHgBnVdZbFRlFP7+/965s890mClLQZiRttQIOIpEVJTWJYRg4pLoiw/gi8QnIb74Vnj0CUxMiDGGQoJLlIhbjCZKUUKCWiyLggXsQgu0dJnOtLPd5ff893amHWYqjedl7nbO95/vnP87/zAs0ETvoTozWGxlAnG6rQMPgLubUxDohqF2s8iDqYXEYXf7wBg5uFNh+g4rf7UV5iigjwNcAwttA5QARdDotw6M+zpNPX1YjWzv+F+AxvD7L3BzcL/InYtDvzn7gkBY+DkCDVZ8Lwo9QL4HLPBEn8XC+9TFr3csCFBSh0Cq3cqe343cxcp3hgKLPQpzuuA4u31wxVbQ1SCQOTkbNPIyWPDJA8y3ac9/Akow4Rs9ITI/JmGMlZ/ne8eQ7xuDPpJxnBQVTFVnFmFAjXrhiUfhSUTBfA8Bvg3kdImuk91g69vm1letAPQNHxLpH5IwncDGRA6Z33rtX6554F5+L7RoA2XmQWXmBozbI5i8fhvBZ+Pg2bNgFEMIkWSewhf0SVtVhmLsg3Yr9fXeUr1kRpkzfXY2NtCSlbO0uEPUPFOOn2VVgFuFHJSYG+77XnEeUDczT9Me5tt4oAwobh6MW+a1Xkw5dSgMpZA+dc3Oyt+ygQC8FWBay2OwxrpgTedhTmRQy1yJh6HUx50bbQUK0/0J77I3+rizivF25M46K5wuYooyqwmmuqEsioAVL4P7vFCCPvDQkpqA+tWTENlJh4WJz+BRCu12jDuzkzRKOoPrH68AU5Yl4bonAWTPzUZ1NwGeZhj938MY7HGCF0kLpgbod5KoXQP3uvuJMtouwS3URK9GVFNBK8v2lLOTYFqsoYrGuWCWbsHUV8AVbqZgV6DWL6WHGooXP7KBSmaO/g0xSaLgJ4Fw07duYyfnQn++1CjZnmFn4Q2JCnokjSUwfSxHJVhG0TzIXvqFfql53AnSgWAFWMmMNHeEQnbtdFerCuNW3IkaoJcq1Lr6iuxsmvJyG0XtazUmVypb/xRYZgAD752nYEUopHB18So8WOm8DA6R/opobXuAC1FMluTKnEhBDUaqnPJDaZhZw64ZC62n1h6mZqmD4vMgunoU0eY0gaVRy6ypQQipQjJDczLOmRIsa6NVyELxB6ucVLfA+OlhmMZSu2Yo3gTzJqCt2QrfM+1E+UrMZyJ7m2LPMsYhpWhGiDlpYy1jCuCPFpD67hBGvzxGndk0+863CJ7Nb4GHF9f2dVWWR2bYV7pRAtGaTtwfgxoJItAYhC90i9gZR/biGZI8R28lZa5lntqA3kWS15nstG5SYU83XcflA9fyVRC56lqo9Jz7PY5i0DzklLEWBnKXzyCw1m/vMx4I1V5seHkZUKj1/RxCOSn1Ts4zLTpCnTpR5VQcoXbXVpGHCW3tS87KfVH4V2VtMLvDzQ01AdWGRrthiAIabf7jHLraAXPSnmeuxUHyrZ7J+Z7fUbjxjwNENZF149oQDfsJG0y4n0LmdCdq0cl9eeeaNr5ump1cziph5Q/LY4M0d2MLjMycLM08XKwH45+/g5FjR5DrveK0OWVm6QqmrsYwfPRDuHhfFaDWtJmUot85JbiiHVK8y9NCGJd6iVd7eOa6PqF5NjNg09dgZW841KYF9IKKSNtqFEbofpQIGvgL/qWMhL2SGdeabXA1eB0dDWxBQVmdKAPaiUx+s5uZ6f1i6md7eOqjIZi3/iQ9/ENO2HIgQb2mszCtOAZujkMxx6oyU1c+Aq25heSwy64dQtv3KfW79trUzv1QjH9Mx4ufWuHfaN/rvb+ieOFoRTDLlENWSGQoblRlJptKXRp0wCSVoa3H+ZK3Xyy9rwScoAOUq/mEKFxJkhI7zwpFmgJHYAxdwHwmG0mJNZLrJgrYB3sYqItIO5/uZtn6NpZ4LVUTsAw8dfqAMEbepENpuUGE6z5YRdqnk4OwMjMdK7s1EIYSpr1oXkdp6jDvWurcde/yXGTvXLB5AR3Qrp0oXm63Jj6NE4Kjt5LJ9LfOvpJyaN1xvKB6MW+yz1KW71GX7Dpekw3cxeyTt7dxB22dVpGiA5hOHWs5dNtbSVKnxOR+6rTgOTzfAXjBgCWTZ1YjkE9y8CTkfwvHUoKKpmS0zjupm8/+Bb5vodzEWKFiAAAAAElFTkSuQmCC" alt="" class="campain1-coin">
+            <h1 class="campain1-total-raise-money text-lg text-gray-500 "> <span id="campin1-raise-donation">000</span>
+              BDT</h1>
+          </div>
+          <h1 id="campain1-name" class="my-4 text-xl font-bold ">Donate for Flood at Noakhali, Bangladesh</h1>
+          <p class="campain1-dettails text-gray-500 text-lg font-light "> The recent floods in Noakhali have caused
+            significant damage to homes infrastructure. Your donation will help provide essential supplies and to those
+            affected by this disaster. Every contribution, big or small, makes difference. Please join us in supporting
+            the relief efforts and making a positive impact on the lives of those in need.</p>
+          <input type="text" id="campain1-donation-amount"
+            class=" bg-white py-4 px-5 border border-gray-300 rounded-xl w-[360px] md:w-[500px] my-6"
+            placeholder="Write Donation Amount"> <br>
+          <button id="campain1-donation-button"
+            class=" text-xl font-semibold bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] w-[360px] md:w-[500px] rounded-lg py-4 ">Donate
+            Now</button>
+          <!-- onclick="donation_confirmation_campain2.showModal()"   -->
+
+          <div id="modal1" class=" hidden fixed z-10 inset-0 ">
+            <div class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-10 transition-opacity">
+              <div
+                class="flex flex-col items-center py-5 md:py-8 justify-between bg-white  rounded-xl w-[400px] md:w-[650px]">
+                <h3 class="font-bold text-3xl md:text-5xl">Congrates!</h3>
+                <img src="data:image/png;base64,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" alt="" class="w-10 md:w-16 object-cover my-3 md:my-6">
+                <p class="py-2 md:py-3 text-lg md:text-xl text-gray-600">You have donated for humankind</p>
+                <p class="pb-2 md:pt-3 md:pb-4 text-xl md:text-2xl font-bold">successfully</p>
+                <button id="donation_confirmation_ button_campain1" type="button"
+                  class=" btn rounded-lg p-3 border-0   bg-gray-100 text-gray-500 text-xl hover:bg-gray-200">close
+                  confirmation
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="donation-campain2 mt-10 w-[410px] mx-2 md:w-[1140px] md:mx-auto border border-gray-200 rounded-2xl p-8 flex flex-col md:flex-row gap-8 shadow-xl">
+        <div class="campaiin2-img md:w-[530px]"><img src="/assets/feni-7J5bcV95.png" alt=""
+            class=" w-[360px]  md:w-[530px] md:h-[500px] object-cover rounded-lg"></div>
+        <div class="campain2-information w-[360px] md:w-[520px]">
+          <div class="campain2-raise-money flex py-3 px-4 gap-2 bg-[rgba(17,17,17,0.05)]  rounded-md">
+            <img src="data:image/png;base64,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" alt="" class="campain2-coin">
+            <h1 class="campain2-total-raise-money text-lg text-gray-500 "><span id="campin2-raise-donation">000</span>
+              BDT</h1>
+          </div>
+          <h1 id="campain2-name" class=" my-4 text-xl font-bold ">Donate for Flood Relief in Feni,Bangladesh</h1>
+          <p class="campain2-dettails text-gray-500 text-lg font-light "> The recent floods in Feni have devastated
+            local communities, leading to severe disruption and loss. Your generous donation will help provide immediate
+            aid, including food, clean water, and medical supplies, to those affected by this calamity. Together, we can
+            offer crucial support and help rebuild lives in the aftermath of this disaster. Every contribution counts
+            towards making a real difference. Please consider donating today to assist those in urgent need.</p>
+          <input type="text" id="campain2-donation-amount"
+            class=" bg-white py-4 px-5 border border-gray-300 rounded-xl w-[360px] md:w-[500px] my-6"
+            placeholder="Write Donation Amount"> <br>
+            <button id="campain2-donation-button"
+            class=" text-xl font-semibold bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] w-[360px] md:w-[500px] rounded-lg py-4 ">Donate
+            Now</button>
+            <div id="modal2" class=" hidden fixed z-10 inset-0 ">
+              <div class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-10 transition-opacity">
+                <div
+                  class="flex flex-col items-center py-5 md:py-8 justify-between bg-white  rounded-xl w-[400px] md:w-[650px]">
+                  <h3 class="font-bold text-3xl md:text-5xl">Congrates!</h3>
+                  <img src="data:image/png;base64,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" alt="" class="w-10 md:w-16 object-cover my-3 md:my-6">
+                  <p class="py-2 md:py-3 text-lg md:text-xl text-gray-600">You have donated for humankind</p>
+                  <p class="pb-2 md:pt-3 md:pb-4 text-xl md:text-2xl font-bold">successfully</p>
+                  <button id="donation_confirmation_ button_campain2" type="button"
+                    class=" btn rounded-lg p-3 border-0   bg-gray-100 text-gray-500 text-xl hover:bg-gray-200">close
+                    confirmation
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="donation-campain3 mt-10 w-[410px] mx-2 md:w-[1140px] md:mx-auto border border-gray-200 rounded-2xl p-8 flex flex-col md:flex-row gap-8 shadow-xl">
+        <div class="campaiin3-img md:w-[530px]"><img src="/assets/quota-protest-DItmrrCq.png" alt=""
+            class=" w-[360px]  md:w-[530px] md:h-[560px] object-cover rounded-lg"></div>
+        <div class="campain3-information w-[360px] md:w-[520px]">
+          <div class="campai31-raise-money flex py-3 px-4 gap-2 bg-[rgba(17,17,17,0.05)]  rounded-md">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAdCAYAAAC5UQwxAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAY3SURBVHgBnVdZbFRlFP7+/965s890mClLQZiRttQIOIpEVJTWJYRg4pLoiw/gi8QnIb74Vnj0CUxMiDGGQoJLlIhbjCZKUUKCWiyLggXsQgu0dJnOtLPd5ff893amHWYqjedl7nbO95/vnP87/zAs0ETvoTozWGxlAnG6rQMPgLubUxDohqF2s8iDqYXEYXf7wBg5uFNh+g4rf7UV5iigjwNcAwttA5QARdDotw6M+zpNPX1YjWzv+F+AxvD7L3BzcL/InYtDvzn7gkBY+DkCDVZ8Lwo9QL4HLPBEn8XC+9TFr3csCFBSh0Cq3cqe343cxcp3hgKLPQpzuuA4u31wxVbQ1SCQOTkbNPIyWPDJA8y3ac9/Akow4Rs9ITI/JmGMlZ/ne8eQ7xuDPpJxnBQVTFVnFmFAjXrhiUfhSUTBfA8Bvg3kdImuk91g69vm1letAPQNHxLpH5IwncDGRA6Z33rtX6554F5+L7RoA2XmQWXmBozbI5i8fhvBZ+Pg2bNgFEMIkWSewhf0SVtVhmLsg3Yr9fXeUr1kRpkzfXY2NtCSlbO0uEPUPFOOn2VVgFuFHJSYG+77XnEeUDczT9Me5tt4oAwobh6MW+a1Xkw5dSgMpZA+dc3Oyt+ygQC8FWBay2OwxrpgTedhTmRQy1yJh6HUx50bbQUK0/0J77I3+rizivF25M46K5wuYooyqwmmuqEsioAVL4P7vFCCPvDQkpqA+tWTENlJh4WJz+BRCu12jDuzkzRKOoPrH68AU5Yl4bonAWTPzUZ1NwGeZhj938MY7HGCF0kLpgbod5KoXQP3uvuJMtouwS3URK9GVFNBK8v2lLOTYFqsoYrGuWCWbsHUV8AVbqZgV6DWL6WHGooXP7KBSmaO/g0xSaLgJ4Fw07duYyfnQn++1CjZnmFn4Q2JCnokjSUwfSxHJVhG0TzIXvqFfql53AnSgWAFWMmMNHeEQnbtdFerCuNW3IkaoJcq1Lr6iuxsmvJyG0XtazUmVypb/xRYZgAD752nYEUopHB18So8WOm8DA6R/opobXuAC1FMluTKnEhBDUaqnPJDaZhZw64ZC62n1h6mZqmD4vMgunoU0eY0gaVRy6ypQQipQjJDczLOmRIsa6NVyELxB6ucVLfA+OlhmMZSu2Yo3gTzJqCt2QrfM+1E+UrMZyJ7m2LPMsYhpWhGiDlpYy1jCuCPFpD67hBGvzxGndk0+863CJ7Nb4GHF9f2dVWWR2bYV7pRAtGaTtwfgxoJItAYhC90i9gZR/biGZI8R28lZa5lntqA3kWS15nstG5SYU83XcflA9fyVRC56lqo9Jz7PY5i0DzklLEWBnKXzyCw1m/vMx4I1V5seHkZUKj1/RxCOSn1Ts4zLTpCnTpR5VQcoXbXVpGHCW3tS87KfVH4V2VtMLvDzQ01AdWGRrthiAIabf7jHLraAXPSnmeuxUHyrZ7J+Z7fUbjxjwNENZF149oQDfsJG0y4n0LmdCdq0cl9eeeaNr5ump1cziph5Q/LY4M0d2MLjMycLM08XKwH45+/g5FjR5DrveK0OWVm6QqmrsYwfPRDuHhfFaDWtJmUot85JbiiHVK8y9NCGJd6iVd7eOa6PqF5NjNg09dgZW841KYF9IKKSNtqFEbofpQIGvgL/qWMhL2SGdeabXA1eB0dDWxBQVmdKAPaiUx+s5uZ6f1i6md7eOqjIZi3/iQ9/ENO2HIgQb2mszCtOAZujkMxx6oyU1c+Aq25heSwy64dQtv3KfW79trUzv1QjH9Mx4ufWuHfaN/rvb+ieOFoRTDLlENWSGQoblRlJptKXRp0wCSVoa3H+ZK3Xyy9rwScoAOUq/mEKFxJkhI7zwpFmgJHYAxdwHwmG0mJNZLrJgrYB3sYqItIO5/uZtn6NpZ4LVUTsAw8dfqAMEbepENpuUGE6z5YRdqnk4OwMjMdK7s1EIYSpr1oXkdp6jDvWurcde/yXGTvXLB5AR3Qrp0oXm63Jj6NE4Kjt5LJ9LfOvpJyaN1xvKB6MW+yz1KW71GX7Dpekw3cxeyTt7dxB22dVpGiA5hOHWs5dNtbSVKnxOR+6rTgOTzfAXjBgCWTZ1YjkE9y8CTkfwvHUoKKpmS0zjupm8/+Bb5vodzEWKFiAAAAAElFTkSuQmCC" alt="" class="campain3-coin">
+            <h1 class="campain3-total-raise-money text-lg text-gray-500 "><span id="campin3-raise-donation">000</span>
+              BDT</h1>
+          </div>
+          <h1 id="campain3-name" class=" my-4 text-xl font-bold ">Aid for Injured in the Quota Movement</h1>
+          <p class="campain3-dettails text-gray-500 text-lg font-light "> The recent Quota movement has resulted in
+            numerous injuries and significant hardship for many individuals. Your support is crucial in providing
+            medical assistance, rehabilitation, and necessary supplies to those affected. By contributing, you help
+            ensure that injured individuals receive the care and support they need during this challenging time. Every
+            donation plays a vital role in alleviating their suffering and aiding in their recovery. Please consider
+            making a donation to support these brave individuals in their time of need.</p>
+          <input id="campain3-donation-amount" type="text"
+            class=" bg-white py-4 px-5 border border-gray-300 rounded-xl w-[360px] md:w-[500px] my-6"
+            placeholder="Write Donation Amount"> <br>
+            <button id="campain3-donation-button"
+            class=" text-xl font-semibold bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] w-[360px] md:w-[500px] rounded-lg py-4 ">Donate
+            Now</button>
+            <div id="modal3" class=" hidden fixed z-10 inset-0 ">
+              <div class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-10 transition-opacity">
+                <div
+                  class="flex flex-col items-center py-5 md:py-8 justify-between bg-white  rounded-xl w-[400px] md:w-[650px]">
+                  <h3 class="font-bold text-3xl md:text-5xl">Congrates!</h3>
+                  <img src="data:image/png;base64,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" alt="" class="w-10 md:w-16 object-cover my-3 md:my-6">
+                  <p class="py-2 md:py-3 text-lg md:text-xl text-gray-600">You have donated for humankind</p>
+                  <p class="pb-2 md:pt-3 md:pb-4 text-xl md:text-2xl font-bold">successfully</p>
+                  <button id="donation_confirmation_ button_campain3" type="button"
+                    class=" btn rounded-lg p-3 border-0   bg-gray-100 text-gray-500 text-xl hover:bg-gray-200">close
+                    confirmation
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="donation-campain4 mt-10 mb-20 md:mb-28  w-[410px] mx-2 md:w-[1140px] md:mx-auto border border-gray-200 rounded-2xl p-8 flex flex-col md:flex-row gap-8 shadow-xl">
+        <div class="campaiin4-img md:w-[530px]"><img src="/assets/bhola-flood-DqSSQpXe.jpg" alt=""
+            class=" w-[360px]  md:w-[530px] md:h-[450px] object-cover rounded-lg"></div>
+        <div class="campain4-information w-[360px] md:w-[520px]">
+          <div class="campain4-raise-money flex py-3 px-4 gap-2 bg-[rgba(17,17,17,0.05)]  rounded-md">
+            <img src="data:image/png;base64,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" alt="" class="campain4-coin">
+            <h1 class="campain3-total-raise-money text-lg text-gray-500 "> <span id="campin4-raise-donation">000</span>
+              BDT</h1>
+          </div>
+          <h1 id="campain4-name" class=" my-4 text-xl font-bold ">Donate for Flood Relief in Bhola,Bangladesh</h1>
+          <p class="campain4-dettails text-gray-500 text-lg font-light "> The recent floods in Bhola have caused
+            significant damage to homes infrastructure. Your donation will help provide essential supplies and to those
+            affected by this disaster. Every contribution, big or small, makes difference. Please join us in supporting
+            the relief efforts and making a positive impact on the lives of those in need.</p>
+          <input type="text" id="campain4-donation-amount"
+            class="bg-white py-4 px-5 border border-gray-300 rounded-xl w-[360px] md:w-[500px] my-6"
+            placeholder="Write Donation Amount"> <br>
+            <button id="campain4-donation-button"
+            class=" text-xl font-semibold bg-[rgb(144,244,97)] hover:bg-[rgb(147,237,108)] w-[360px] md:w-[500px] rounded-lg py-4 ">Donate
+            Now</button>
+            <div id="modal4" class=" hidden fixed z-10 inset-0 ">
+              <div class="flex items-center justify-center min-h-screen bg-gray-500 bg-opacity-10 transition-opacity">
+                <div
+                  class="flex flex-col items-center py-5 md:py-8 justify-between bg-white  rounded-xl w-[400px] md:w-[650px]">
+                  <h3 class="font-bold text-3xl md:text-5xl">Congrates!</h3>
+                  <img src="data:image/png;base64,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" alt="" class="w-10 md:w-16 object-cover my-3 md:my-6">
+                  <p class="py-2 md:py-3 text-lg md:text-xl text-gray-600">You have donated for humankind</p>
+                  <p class="pb-2 md:pt-3 md:pb-4 text-xl md:text-2xl font-bold">successfully</p>
+                  <button id="donation_confirmation_ button_campain4" type="button"
+                    class=" btn rounded-lg p-3 border-0   bg-gray-100 text-gray-500 text-xl hover:bg-gray-200">close
+                    confirmation
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="footer h-32 bg-[rgb(249,247,243)]">
+      </div>
+    </div>
+    <div id="donation-history" class=" hidden mx-2 md:px-20 bg-white ">
+
+    </div>
+
+  </main>
+  
+  <script src="./logic.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
