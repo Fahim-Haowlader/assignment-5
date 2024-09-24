@@ -33,7 +33,7 @@ function donationCheck(inputid, submitid, confirmationid,campainid,campaintitle,
         let donationAmount = Number(document.getElementById(inputid).value);
         let myBlance = document.getElementById('balance')
         let myBalaceAmount = Number(myBlance.innerText)
-        console.log(myBalaceAmount)
+      
         if ( donationAmount == ""){
             alert("Please enter a valid donation amount");
         }
@@ -52,16 +52,12 @@ function donationCheck(inputid, submitid, confirmationid,campainid,campaintitle,
                 document.getElementById(modalid).classList.add("hidden");
                document.getElementById(inputid).value = "";
             });
-                // let myBlance = document.getElementById('balance')
-                // let myBalaceAmount = Number(myBlance.innerText)
-                // console.log(myBalaceAmount)
+            
                 let donationAmount = Number(document.getElementById(inputid).value);
-                console.log(donationAmount)
+         
                 let campaignBalance = document.getElementById(campainid)
                 let campaignBalanceAmount = Number(campaignBalance.innerText)
-                console.log(campaignBalanceAmount)
                 let newBalance = campaignBalanceAmount + donationAmount
-                console.log(newBalance)
                 campaignBalance.innerText = newBalance           
                 myBlance.innerText = eval(myBalaceAmount - donationAmount) 
                
