@@ -1,9 +1,7 @@
  let blogButton = document.getElementById('blog-button');
  
-
-blogButton.addEventListener("click",()=>{
+ blogButton.addEventListener("click",()=>{
     window.location.href = "./faq.html"
-    console.log('hi')
 
 })
 
@@ -16,11 +14,3 @@ donationCheck("campain1-donation-amount","campain1-donation-button","donation_co
   donationCheck("campain4-donation-amount","campain4-donation-button","donation_confirmation_ button_campain4","campin4-raise-donation","campain4-name","modal4")
 
 
-// document.getElementById("campain1-donation-button").addEventListener("click", function() {
-//   document.getElementById("modal").classList.remove("hidden");
-// });
-
-// document.getElementById("donation_confirmation_ button_campain1").addEventListener("click", function() {
-//   document.getElementById("modal").classList.add("hidden");
-// });
- 
